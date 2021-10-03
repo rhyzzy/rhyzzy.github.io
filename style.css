@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    margin-top: 30px;
+}
+
+.item{
+    width: 400px;
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+}
+#container{
+    display: flex;
+    width: auto;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px
+}
+
+img{
+    width: auto;
+    height: auto;
+}
+
+.info{
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.name{
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.price{
+    font-style: italic;
+}
+
+.gray{
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.color{
+    color: rgba(0, 0, 0, 0.705);
+}
